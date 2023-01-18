@@ -1,5 +1,6 @@
 # Digital Assistant for LinkedIn
 Automate the application process on LinkedIn
+
 A Digital assistant that automatically applys to jobs for you
 
 ## Setup
@@ -51,7 +52,7 @@ salary: 100000
 
 
 # for radio and dropdown questions, these will be located dynamically as linkedin questions change up often, so use a word or short part of the question and then the answer (only alphabetical letters allowed)
-# NOTE: default if not found will be YOLO and select the first option so be sure to do a bit of leg work and go through some of the applications manually to get a feel for the questions and answers
+# NOTE: default if not found will be YOLO and select either the first option or yes, so be sure to do a bit of leg work and go through some of the applications manually to get a feel for the questions and answers
 radio_and_dropdowns:
   bachelors: no
   high school: yes
