@@ -1205,7 +1205,3 @@ if __name__ == "__main__":
     locations: list = [l for l in parameters["locations"] if l != None]
     positions: list = [p for p in parameters["positions"] if p != None]
     assistant.start_apply(positions, locations)
-
-
-# it's skipping after it goes to the input_experience_numeric function, need it to go back and run the resume again
-# Have you previously worked as a Technical Architect?
