@@ -11,7 +11,7 @@ python -m pip install -r requirements.txt
 python -m pipenv install
 ```
 
-Enter your username, password, inputs, dropdowns and search settings into the `config.yaml` file
+Enter your phone number, inputs, dropdowns and search settings into the `config.yaml` file
 
 ```yaml
 phone_number: # Enter your phone number
