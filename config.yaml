@@ -1,0 +1,57 @@
+phone_number: 1234567890
+
+positions:
+  - DevOps
+  - AWS
+
+locations:
+  - Remote
+  -  # A second location you want to search in
+
+# --------- Optional Parameters -------
+# uploads:
+#  Resume: # PATH TO Resume
+#  Cover Letter: # PATH TO cover letter
+#  Photo: # PATH TO photo
+
+# name of resume that has already been uploaded to linkedin
+existing_resume: name-of-resume
+
+# output_filename:
+# - # PATH TO OUTPUT FILE (default output.csv)
+
+# all lowercase
+blacklist_companies:
+  - company1
+  - company2
+
+blacklist_titles:
+  - Oracle
+  - Remote SAP
+
+# Salary anount in numeric value
+salary: 10000
+
+# Technical skills to add along with a numeric number for years of experience, it will search the input field by contains
+tech_skills:
+  python: 3
+  terraform: 2
+  # put in as default number of years experience if not listed
+  default: 2
+
+# for radio and dropdown questions, these will be located dynamically as linkedin questions change up often, so use a word or short part of the question and then the answer (only alphabetical letters allowed)
+# NOTE: default if not found will be YOLO and select the first option so be sure to do a bit of leg work and go through some of the applications manually to get a feel for the questions and answers
+radio_and_dropdowns:
+  bachelors: no
+  high school: yes
+  aws solutions architect associate: yes
+  remote: yes # this is for remote work settings questions i.e. "Are you comfortable working in a remote work setting?"
+  # work authorization
+  require sponsorship: no
+  authorized: yes
+  # other random questions
+  minimum 8 years experience: no
+  local to texas: no
+  license: yes
+  english: native
+  background check: yes
