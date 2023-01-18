@@ -76,8 +76,6 @@ Run the following to start the digital assistant
 python -m pipenv run python main.py
 ```
 
-input("Check login Info, or verification check")
-
 Enter your username and password for LinkedIn in the terminal
 
 Press Enter once you have confirmed you are fully logged in
